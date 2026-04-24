@@ -1,0 +1,36 @@
+.section-header {
+    margin-bottom: 50px;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-center .title-underline {
+    margin: 0 auto;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: -1px;
+}
+
+.section-title .dot {
+    color: var(--color-primary);
+    margin-right: 2px;
+}
+
+.section-subtitle {
+    color: var(--color-text-muted);
+    font-size: 1.1rem;
+    max-width: 600px;
+}
+
+.title-underline {
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+    border-radius: 2px;
+    margin-top: 15px;
+}

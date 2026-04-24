@@ -1,0 +1,85 @@
+.about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.bio-text {
+    font-size: 1.1rem;
+    color: var(--color-text-muted);
+    margin-bottom: 30px;
+    text-wrap: balance;
+}
+
+.about-info {
+    display: grid;
+    gap: 15px;
+}
+
+.info-item {
+    display: flex;
+    gap: 10px;
+}
+
+.info-label {
+    color: var(--color-primary);
+    font-weight: 600;
+    min-width: 100px;
+}
+
+.about-education h3 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+}
+
+.edu-card {
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.edu-card h4 {
+    color: white;
+    margin-bottom: 5px;
+}
+
+.edu-inst {
+    color: var(--color-accent);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.edu-period {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+}
+
+.courses-list h4 {
+    margin: 20px 0 15px;
+    font-size: 1.1rem;
+}
+
+.courses-list ul {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+}
+
+.courses-list li {
+    color: var(--color-text-muted);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.95rem;
+}
+
+.courses-list li::before {
+    content: '→';
+    color: var(--color-primary);
+}
+
+@media (max-width: 768px) {
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+}

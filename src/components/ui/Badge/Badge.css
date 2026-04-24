@@ -1,0 +1,25 @@
+.badge {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.badge-outline {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.03);
+    color: var(--color-accent);
+}
+
+.badge-filled {
+    background: var(--color-primary-glow);
+    color: var(--color-primary);
+    border: 1px solid rgba(124, 58, 237, 0.2);
+}
+
+.badge:hover {
+    transform: translateY(-1px);
+    border-color: var(--color-primary);
+}
