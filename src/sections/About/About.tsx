@@ -12,17 +12,6 @@ export const About: React.FC = () => {
             <div className="about-grid">
                 <div className="about-bio">
                     <p className="bio-text">{profile.bio}</p>
-
-                    <div className="about-info">
-                        <div className="info-item">
-                            <span className="info-label">Localidad:</span>
-                            <span className="info-value">{profile.location}</span>
-                        </div>
-                        <div className="info-item">
-                            <span className="info-label">Email:</span>
-                            <span className="info-value">{profile.email}</span>
-                        </div>
-                    </div>
                 </div>
 
                 <div className="about-education">

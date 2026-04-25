@@ -2,10 +2,61 @@ import React from 'react';
 import './Projects.css';
 import { SectionTitle } from '../../components/ui/SectionTitle/SectionTitle';
 import { projects } from '../../data/projects';
-import { Button } from '../../components/ui/Button/Button';
 import { Badge } from '../../components/ui/Badge/Badge';
+import * as Logos from '@ridemountainpig/svgl-react';
+import { TailwindCSS } from '../../components/ui/Logos/TailwindCSS';
+import { ReactIcon } from '../../components/ui/Logos/ReactIcon';
+import { ReactRouterIcon } from '../../components/ui/Logos/ReactRouterIcon';
+import { CSSIcon } from '../../components/ui/Logos/CSSIcon';
+import { FigmaIcon } from '../../components/ui/Logos/FigmaIcon';
 
 export const Projects: React.FC = () => {
+    const getTechConfig = (tech: string) => {
+        const t = tech.toLowerCase();
+        let LogoComponent = (Logos as any)[tech.replace('.', '').replace(' ', '')];
+
+        if (t.includes('tailwind')) {
+            LogoComponent = TailwindCSS;
+        } else if (t.includes('router')) {
+            LogoComponent = ReactRouterIcon;
+        } else if (t === 'react' || t.includes('react ')) {
+            LogoComponent = ReactIcon;
+        } else if (t === 'css') {
+            LogoComponent = CSSIcon;
+        } else if (t === 'figma') {
+            LogoComponent = FigmaIcon;
+        } else if (t.includes('framer') || t.includes('motion')) {
+            LogoComponent = Logos.MotionDark;
+        } else if (t.includes('bootstrap')) {
+            LogoComponent = Logos.Bootstrap;
+        } else if (t.includes('next')) {
+            LogoComponent = Logos.Nextjs;
+        } else if (t.includes('supabase')) {
+            LogoComponent = Logos.Supabase;
+        } else if (t.includes('vite')) {
+            LogoComponent = Logos.Vite;
+        } else if (t.includes('typescript')) {
+            LogoComponent = Logos.TypeScript;
+        }
+
+        let bgColor = 'rgba(255, 255, 255, 0.05)';
+        if (t.includes('router')) bgColor = 'rgba(255, 0, 85, 0.2)';
+        else if (t.includes('tailwind')) bgColor = 'rgba(6, 182, 212, 0.2)';
+        else if (t.includes('next')) bgColor = 'rgba(255, 255, 255, 0.15)';
+        else if (t === 'react' || t.includes('react ')) bgColor = 'rgba(97, 218, 251, 0.2)';
+        else if (t.includes('typescript')) bgColor = 'rgba(49, 120, 198, 0.2)';
+        else if (t.includes('framer') || t.includes('motion')) bgColor = 'rgba(255, 0, 85, 0.15)';
+        else if (t === 'css') bgColor = 'rgba(102, 51, 153, 0.3)';
+        else if (t === 'figma') bgColor = 'rgba(162, 89, 255, 0.2)';
+        else if (t.includes('bootstrap')) bgColor = 'rgba(113, 11, 236, 0.2)';
+        else if (t.includes('vite')) bgColor = 'rgba(100, 108, 255, 0.2)';
+
+        return {
+            Logo: LogoComponent,
+            bgColor
+        };
+    };
+
     return (
         <section id="projects" className="projects">
             <SectionTitle
@@ -36,9 +87,17 @@ export const Projects: React.FC = () => {
                             <h3>{project.title}</h3>
                             <p className="project-desc">{project.description}</p>
                             <div className="project-tags">
-                                {project.stack.map((tech, idx) => (
-                                    <Badge key={idx} variant="outline">{tech}</Badge>
-                                ))}
+                                {project.stack.map((tech, idx) => {
+                                    const { Logo, bgColor } = getTechConfig(tech);
+                                    return (
+                                        <Badge key={idx} backgroundColor={bgColor}>
+                                            <div className="tag-content" style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                                                {Logo && <Logo width={14} height={14} />}
+                                                {tech}
+                                            </div>
+                                        </Badge>
+                                    );
+                                })}
                             </div>
                         </div>
                     </div>
@@ -46,9 +105,14 @@ export const Projects: React.FC = () => {
             </div>
 
             <div className="projects-more">
-                <Button variant="outline" onClick={() => window.open('https://github.com/CHANKUN5', '_blank')}>
-                    Ver más en GitHub
-                </Button>
+                <a
+                    href="https://github.com/CHANKUN5?tab=repositories"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pill-button"
+                >
+                    Ver más Proyectos
+                </a>
             </div>
         </section>
     );

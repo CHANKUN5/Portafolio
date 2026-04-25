@@ -11,22 +11,6 @@
     text-wrap: balance;
 }
 
-.about-info {
-    display: grid;
-    gap: 15px;
-}
-
-.info-item {
-    display: flex;
-    gap: 10px;
-}
-
-.info-label {
-    color: var(--color-primary);
-    font-weight: 600;
-    min-width: 100px;
-}
-
 .about-education h3 {
     margin-bottom: 20px;
     font-size: 1.5rem;
