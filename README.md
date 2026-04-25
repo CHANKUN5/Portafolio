@@ -1,75 +1,79 @@
-# <img src="https://github.com/user-attachments/assets/135ba7bc-e575-4556-9439-d5a38ca47a35" width="30" height="30" /> <span style="color: #8A2BE2;">Hola, mi nombre es Kassandra Castro</span>
+# ¡Hola! Soy Kassandra Castro 👋
 
-## <span style="color: #8A2BE2;">Acerca de Mí</span>
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nextjs,ts,js,tailwind,bootstrap,figma,supabase,postgresql,git,python,java" />
+</p>
 
-<img align="right" alt="perfil" width="300" src="https://github.com/user-attachments/assets/1794f974-7b22-45c2-acc5-984e5dd5b2b8" />
+---
 
-> Soy estudiante técnica en **<span style="color: #8A2BE2;">Desarrollo de Software</span>** en SENATI, apasionada por el **<span style="color: #8A2BE2;">diseño de interfaces</span>** y la **<span style="color: #8A2BE2;">experiencia de usuario</span>**. Mi objetivo es crear soluciones digitales intuitivas y funcionales, mientras sigo explorando y aprendiendo nuevos **<span style="color: #8A2BE2;">lenguajes de programación</span>**.
-> 
-> Actualmente curso el IV ciclo de mi formación profesional, donde he desarrollado habilidades sólidas en **<span style="color: #8A2BE2;">programación web</span>**, **<span style="color: #8A2BE2;">bases de datos</span>** y **<span style="color: #8A2BE2;">desarrollo de aplicaciones</span>**. Me caracterizo por mi proactividad, responsabilidad y compromiso con cada proyecto que emprendo.
->
-> Mi enfoque se centra en crear **<span style="color: #8A2BE2;">experiencias digitales</span>** que realmente impacten y aporten valor a los usuarios. Disfruto enfrentar nuevos desafíos técnicos y colaborar en equipos multidisciplinarios para desarrollar soluciones innovadoras que combinen funcionalidad, estética y rendimiento óptimo.
+### 🚀 Sobre Mí
+Soy una apasionada **Desarrolladora Frontend Junior** enfocada en crear experiencias digitales modernas, elegantes y altamente funcionales. Mi objetivo es transformar ideas complejas en interfaces intuitivas utilizando tecnologías de vanguardia y las mejores prácticas de **código limpio**.
 
-<br>
+- 🔭 Actualmente trabajando en mi **Portafolio Profesional**.
+- 🎓 Estudiante de **Desarrollo de Software** en SENATI (IV Ciclo).
+- 🎨 Especializada en **Glassmorphism**, **Diseño Responsivo** y **UX/UI**.
+- 💬 Pregúntame sobre **React, TypeScript y Animaciones CSS**.
 
-## <span style="color: #8A2BE2;">Habilidades Técnicas</span>
+---
 
-[![HTML5](https://skillicons.dev/icons?i=html,css,js,python,java,mysql,postgres,git,github,vscode,pycharm,idea,vim,eclipse)](https://skillicons.dev)
+### 🛠️ Stack Tecnológico
 
-<br>
+| Área | Tecnologías |
+| :--- | :--- |
+| **Frontend** | ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB) ![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
+| **Estilos** | ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38BDEF?style=flat-square&logo=tailwind-css&logoColor=white) ![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=flat-square&logo=bootstrap&logoColor=white) ![Sass](https://img.shields.io/badge/Sass-CC6699?style=flat-square&logo=sass&logoColor=white) |
+| **Backend/Tools** | ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white) ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white) |
 
-## <span style="color: #8A2BE2;">Proyectos Destacados</span>
+---
 
-### [PeruDelivery – Sistema de Facturación Electrónica](https://perudelivery-wf9e8ikqkenhejtcuchaxn.streamlit.app/)
+### 🌟 Proyectos Destacados
 
-<pre>
-Aplicación web desarrollada en Python con Streamlit para gestionar facturación electrónica
-Incluye funciones para generar, listar y eliminar facturas de manera fácil y visual
-En mantenimiento y ajustando su aspecto visual
-Enfoque en experiencia de usuario y mejor aspecto visual, proximamente conectada a base de datos.
-</pre>
+<table border="0">
+  <tr>
+    <td width="50%">
+      <h4><b>Marketing Médico</b></h4>
+      <p>Landing page corporativa para el sector salud con diseño premium y agendamiento.</p>
+      <img src="public/projects/MarketingMedico.png" width="100%" />
+      <br />
+      <code>React</code> <code>Vite</code> <code>Figma</code> <code>Bootstrap</code>
+    </td>
+    <td width="50%">
+      <h4><b>BaseAsistance</b></h4>
+      <p>Dashboard empresarial para gestión de tiempo y productividad en tiempo real.</p>
+      <img src="public/projects/TimeControl.png" width="100%" />
+      <br />
+      <code>React</code> <code>Tailwind</code> <code>Supabase</code> <code>Vite</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h4><b>Relatos de Otoño (Blogger)</b></h4>
+      <p>Plataforma de blog optimizada para SEO con una interfaz minimalista y fluida.</p>
+      <img src="public/projects/Blogger.png" width="100%" />
+      <br />
+      <code>React</code> <code>CSS Custom</code> <code>Vite</code>
+    </td>
+    <td width="50%">
+      <h4><b>Arte & Ideas</b></h4>
+      <p>Portal creativo para la visualización de proyectos artísticos y diseño moderno.</p>
+      <img src="public/projects/ArteIdeas.png" width="100%" />
+      <br />
+      <code>React</code> <code>Vite</code> <code>Tailwind CSS</code>
+    </td>
+  </tr>
+</table>
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+---
 
-### [MemberTrack – Sistema de Gestión de Socios](https://chankun5.github.io/MemberTrack)
+### 📬 Conéctate Conmigo
+<p align="left">
+<a href="mailto:kasschankasskun@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+<a href="https://wa.me/51970691024" target="_blank"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" /></a>
+<a href="https://github.com/CHANKUN5" target="_blank"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+</p>
 
-<pre>
-Sistema web para la gestión de miembros de una organización
-Permite registrar, editar, eliminar y consultar miembros
-Genera reportes básicos de manera automática
-Desarrollado con tecnologías web modernas y base de datos PostgreSQL
-</pre>
+---
 
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-### [EventConnect – Portal de Eventos Empresariales](https://chankun5.github.io/EvenConnect)
-
-<pre>
-Proyecto de práctica para mostrar habilidades en desarrollo web frontend
-Permite visualizar eventos empresariales con filtros dinámicos
-Diseño responsive adaptable a diferentes dispositivos
-Enfoque en experiencia de usuario y diseño intuitivo
-</pre>
-
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-<br>
-
-## <span style="color: #8A2BE2;">Formación Académica</span>
-
-
-| Ciclo | Período | Cursos |
-|-------|---------|--------|
-| **I** | 2024-1 | • Introducción a las Tecnologías de la Información<br>• Competencias Digitales para la Industria<br>• Inglés Técnico I<br>• Lenguaje y Comunicación<br>• Desarrollo Personal y Taller de Liderazgo<br>• Fundamentos de Programación |
-| **II** | 2024-2 | • Tecnologías Web<br>• Java Fundamentals (Oracle)<br>• CPA/CLA Programming Essentials (Cisco)<br>• Databases Foundations (Oracle)<br>• Inglés Técnico II<br>• Fundamentos de Programación Web |
-| **III** | 2025-1 | • Database Design and Programming with SQL (Oracle)<br>• Desarrollo de Software I<br>• Taller de Programación<br>• Inglés Técnico III<br>• Técnicas de la Comunicación |
-
-<br>
-
-## <span style="color: #8A2BE2;">Contáctame</span>
-
-[![Gmail Personal](https://img.shields.io/badge/Gmail-kasschankasskun@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:kasschankasskun@gmail.com)
-[![Outlook SENATI](https://img.shields.io/badge/Outlook-1614649@senati.pe-0078D4?style=for-the-badge&logo=microsoftoutlook&logoColor=white)](mailto:1614649@senati.pe)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-970691024-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](https://wa.me/51970691024)
-
-
+<p align="center">
+  <i>"El código limpio es el lenguaje de la excelencia."</i>
+</p>
